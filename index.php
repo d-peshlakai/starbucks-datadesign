@@ -29,9 +29,8 @@
 		<ol>
 			<li>What: Use of the Iphone, android, and desktop versions of Windows, and Mac computers.
 			</li>
-			<li>Who: Customer satisfying the taste buds by buying coffee grounds. </li>
-			<li>Why:</li>
-			<li><li>
+			<li>Who: Customer satisfying the taste buds by buying coffee grounds.</li>
+			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona.</li>
 		</ol>
 	</body>
 </htmL>
