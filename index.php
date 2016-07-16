@@ -20,7 +20,18 @@
 			<li>
 				Selecting from choice from category "Whole Bean and Ground"
 			</li>
+			<li>Select choice of coffee form (bean or pods)</li>
+			<li>Select one of the options: blonde, medium, or dark</li>
 			Entering URL site
+		</ol>
+		<h3>Use Case</h3>
+		<p>Goal: As a non Starbucks member, I want to buy a bag of expresso bean coffee </p>
+		<ol>
+			<li>What: Use of the Iphone, android, and desktop versions of Windows, and Mac computers.
+			</li>
+			<li>Who: Customer satisfying the taste buds by buying coffee grounds. </li>
+			<li>Why:</li>
+			<li><li>
 		</ol>
 	</body>
 </htmL>
