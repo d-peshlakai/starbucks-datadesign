@@ -22,7 +22,6 @@
 			</li>
 			<li>Select choice of coffee form (bean or pods)</li>
 			<li>Select one of the options: blonde, medium, or dark</li>
-			Entering URL site
 		</ol>
 		<h3>Use Case</h3>
 		<p>Goal: As a non Starbucks member, I want to buy a bag of expresso bean coffee </p>
@@ -31,6 +30,26 @@
 			</li>
 			<li>Who: Customer satisfying the taste buds by buying coffee grounds.</li>
 			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona.</li>
+			<li>Also choosing from decaffeinated or caffeinated type.</li>
 		</ol>
+		<h4>Conceptual Model</h4>
+		<p>
+			Relationships
+			<ol>
+				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. the reviews can entail which top product is a favorite.</p>
+			<li>
+				Selection of purchasing Pods or whole ground bean
+			</li>
+			<li>
+				Selection of type of roast: Dark, Blonde, or Medium
+			</li>
+			<li>
+				Option to share on another social media source like Pinterest.
+			</li>
+			<li>Customer can also distinguish what espresso is from and which multi region it is derived from.</li>
+			<li>Also select the particular quantity wanting to purchased.</li>
+			<li>Other option to become a member. also another example of a one to many entity. Customer can go deeper to access a wide list of entities.</li>
+		</ol>
+		</p>
 	</body>
 </htmL>
