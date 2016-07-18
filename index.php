@@ -38,7 +38,7 @@
 		<p>
 			Relationships
 			<ol>
-				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. </p>
+				<p>One to many: entry can have many entities. AnonymousId would be the primary key and productId would be a foreign key. The anonymousId would have 0 to more such as one of the following examples:</p>
 			<li>
 				Selection of purchasing Pods or whole ground bean
 			</li>
@@ -50,9 +50,9 @@
 			</li>
 			<li>Customer can also distinguish where espresso is from and which multi region it is derived from.</li>
 			<li>Also select the particular quantity wanting to purchased.</li>
-		<li>The reviews can entail which top product is a favorite by other customers</li>
-		</ol>
+			<li>The reviews can entail which top product is a favorite by other customers</li>
+			</ol>
 		</p>
-		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc. A weak entity would open a wide range of entities would be to become a member.</p>
+		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc. A weak entity would open a wide range of entities by becoming a member. An example of a weak entity would be add more responsibilites to customer by becoming a member. It would ask to create account in order to access discounted products, payment information saved on, forcing customer to purchase certain products and enforce more spending.</p>
 	</body>
 </htmL>
