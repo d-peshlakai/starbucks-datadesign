@@ -9,7 +9,7 @@
 		</h1>
 		<p>The site assigned was Starbucks web page. The user purpose would be a non-member 		customer purchasing either espresso coffee whole bean or the Veriso pods.</p>
 		<h1>Interaction Flow</h1>
-		<p>The goal would be to satisfy their taste buds by purchasing a specific flavor coffee. Also map out the data at rest. The logical containers would involve: order, customer, and product, and vendor.  The user would start off in the following steps:</p>
+		<p>The goal would be to satisfy the customers taste buds by purchasing a specific flavor coffee including mapping out the data at rest. The logical containers would involve: order, customer, and product, and vendor.  The user would start off in the following steps:</p>
 		<ol>
 			<li>
 				Entering URL site
@@ -32,7 +32,7 @@
 			</li>
 			<li>Who: Customer satisfying the taste buds by buying coffee grounds.</li>
 			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona.</li>
-			<li>Also choosing from decaffeinated or caffeinated type.</li>
+
 		</ol>
 		<h1>Conceptual Model</h1>
 		<p>
@@ -45,6 +45,7 @@
 			<li>
 				Selection of type of roast: Dark, Blonde, or Medium
 			</li>
+			<li>Also choosing from decaffeinated or caffeinated type.</li>
 			<li>
 				Option to share on another social media source like Pinterest.
 			</li>
