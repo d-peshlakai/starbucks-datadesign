@@ -50,10 +50,9 @@
 			</li>
 			<li>Customer can also distinguish where espresso is from and which multi region it is derived from.</li>
 			<li>Also select the particular quantity wanting to purchased.</li>
-			<li>Other option to become a Starbucks member would open a wide list of entities. </li>
 		<li>The reviews can entail which top product is a favorite by other customers</li>
 		</ol>
 		</p>
-		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc.</p>
+		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc. A weak entity would open a wide range of entities would be to become a member.</p>
 	</body>
 </htmL>
