@@ -9,7 +9,7 @@
 		</h1>
 		<p>The site assigned was Starbucks web page. The user purpose would be a non-member 		customer purchasing either espresso coffee whole bean or the Veriso pods.</p>
 		<h1>Interaction Flow</h1>
-		<p>The goal would be to satisfy their taste buds by purchasing a specific flavor coffee. The user would start off in the following steps:</p>
+		<p>The goal would be to satisfy their taste buds by purchasing a specific flavor coffee. Also map out the data at rest. The logical containers would involve: order, customer, and product, and vendor.  The user would start off in the following steps:</p>
 		<ol>
 			<li>
 				Entering URL site
@@ -38,7 +38,7 @@
 		<p>
 			Relationships
 			<ol>
-				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. The reviews can entail which top product is a favorite.</p>
+				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. </p>
 			<li>
 				Selection of purchasing Pods or whole ground bean
 			</li>
@@ -48,10 +48,12 @@
 			<li>
 				Option to share on another social media source like Pinterest.
 			</li>
-			<li>Customer can also distinguish what espresso is from and which multi region it is derived from.</li>
+			<li>Customer can also distinguish where espresso is from and which multi region it is derived from.</li>
 			<li>Also select the particular quantity wanting to purchased.</li>
-			<li>Other option to become a member. Also another example of a one to many entity. Customer can go deeper to access a wide list of entities.</li>
+			<li>Other option to become a Starbucks member would open a wide list of entities. </li>
+		<li>The reviews can entail which top product is a favorite by other customers</li>
 		</ol>
 		</p>
+		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc.</p>
 	</body>
 </htmL>
