@@ -8,8 +8,8 @@
 			Persona
 		</h1>
 		<p>The site assigned was Starbucks web page. The user purpose would be a non-member 		customer purchasing either espresso coffee whole bean or the Veriso pods.</p>
-		<h2>Interaction Flow</h2>
-		<p>The goal would be to satisfy their taste buds by purchasing a specific flavor coffee. The user would start off with</p>
+		<h1>Interaction Flow</h1>
+		<p>The goal would be to satisfy their taste buds by purchasing a specific flavor coffee. The user would start off in the following steps:</p>
 		<ol>
 			<li>
 				Entering URL site
@@ -22,8 +22,10 @@
 			</li>
 			<li>Select choice of coffee form (bean or pods)</li>
 			<li>Select one of the options: blonde, medium, or dark</li>
+			<li>Add choice to checkout cart link</li>
+			<li>Enter billing information and purchasing information.</li>
 		</ol>
-		<h3>Use Case</h3>
+		<h1>Use Case</h1>
 		<p>Goal: As a non Starbucks member, I want to buy a bag of expresso bean coffee </p>
 		<ol>
 			<li>What: Use of the Iphone, android, and desktop versions of Windows, and Mac computers.
@@ -32,11 +34,11 @@
 			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona.</li>
 			<li>Also choosing from decaffeinated or caffeinated type.</li>
 		</ol>
-		<h4>Conceptual Model</h4>
+		<h1>Conceptual Model</h1>
 		<p>
 			Relationships
 			<ol>
-				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. the reviews can entail which top product is a favorite.</p>
+				<p>One to many: entry can have many entities. Can have 0 to more such as customer clicking reviews. The reviews can entail which top product is a favorite.</p>
 			<li>
 				Selection of purchasing Pods or whole ground bean
 			</li>
@@ -48,7 +50,7 @@
 			</li>
 			<li>Customer can also distinguish what espresso is from and which multi region it is derived from.</li>
 			<li>Also select the particular quantity wanting to purchased.</li>
-			<li>Other option to become a member. also another example of a one to many entity. Customer can go deeper to access a wide list of entities.</li>
+			<li>Other option to become a member. Also another example of a one to many entity. Customer can go deeper to access a wide list of entities.</li>
 		</ol>
 		</p>
 	</body>
