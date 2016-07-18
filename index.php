@@ -7,7 +7,7 @@
 		<h1>
 			Persona
 		</h1>
-		<p>The site assigned was Starbucks web page. The user purpose would be a non-member 		customer purchasing either espresso coffee whole bean or the Veriso pods.</p>
+		<p>The site assigned was Starbucks web page. The user is a 26 year old college student who loves coffee. The purpose would be for a usual customer purchasing the Verismo pods.</p>
 		<h1>Interaction Flow</h1>
 		<p>The goal would be to satisfy the customers taste buds by purchasing a specific flavor coffee including mapping out the data at rest. The logical containers would involve: order, customer, and product, and vendor.  The user would start off in the following steps:</p>
 		<ol>
@@ -18,27 +18,27 @@
 				Clicking on category titled "Coffee"
 			</li>
 			<li>
-				Selecting from choice from category "Whole Bean and Ground"
+				Selecting from catergory of the Pods form.
 			</li>
-			<li>Select choice of coffee form (bean or pods)</li>
+			<li>Select the certain quantity.</li>
 			<li>Select one of the options: blonde, medium, or dark</li>
 			<li>Add choice to checkout cart link</li>
 			<li>Enter billing information and purchasing information.</li>
 		</ol>
 		<h1>Use Case</h1>
-		<p>Goal: As a non Starbucks member, I want to buy a bag of expresso bean coffee </p>
+		<p>Goal: As a Starbucks buyer, she want the pods.</p>
 		<ol>
-			<li>What: Use of the Iphone, android, and desktop versions of Windows, and Mac computers.
+			<li>What: Use of the Windows 7 computer.
 			</li>
-			<li>Who: Customer satisfying the taste buds by buying coffee grounds.</li>
-			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona.</li>
+			<li>Who: Customer satisfying the taste buds by buying favorite coffee for coffee maker.</li>
+			<li>Why: I want to buy my favorite tasting coffee. It reflects off of the customers persona as a coffee lover.</li>
 
 		</ol>
 		<h1>Conceptual Model</h1>
 		<p>
 			Relationships
 			<ol>
-				<p>One to many: entry can have many entities. AnonymousId would be the primary key and productId would be a foreign key. The anonymousId would have 0 to more such as one of the following examples:</p>
+				<p>One to many: entry can have many entities. customerId would be the primary key and productId would be a foreign key, type of roast would be another foreign key to give customer a choice, and number of stars would rate the type of coffee chosen.</p>
 			<li>
 				Selection of purchasing Pods or whole ground bean
 			</li>
@@ -54,6 +54,6 @@
 			<li>The reviews can entail which top product is a favorite by other customers</li>
 			</ol>
 		</p>
-		<p>Many to many could occur when customer decides to become a member and/or purchase other products such as tea, subscription, merchandise, etc. A weak entity would open a wide range of entities by becoming a member. An example of a weak entity would be add more responsibilites to customer by becoming a member. It would ask to create account in order to access discounted products, payment information saved on, forcing customer to purchase certain products and enforce more spending.</p>
+		<p> A weak entity would be when the user buys more than one type of coffee. </p>
 	</body>
 </htmL>
