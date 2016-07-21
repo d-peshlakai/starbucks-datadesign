@@ -39,9 +39,9 @@
 			Relationships
 			<ol>
 				<p>One to many: entry can have many entities. customerFe would be the primary key and productId would be a foreign key.</p>
-			<li>Description to identity the coffee of choice</li>
+			<li>Customer selects destination</li>
 			<li>
-				Selection of purchasing Pods or whole ground bean
+				
 			</li>
 			<li>
 				Selection of type of roast: Dark, Blonde, or Medium
@@ -56,5 +56,8 @@
 			</ol>
 		</p>
 		<p> A weak entity would be when the user buys more than one type of coffee and </p>
+		<img src="pics/starbucks.png" alt="starbucks"/>
+
 	</body>
+
 </htmL>
