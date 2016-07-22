@@ -7,7 +7,7 @@
 		<h1>
 			Persona
 		</h1>
-		<p>The site assigned was Starbucks web page. The user is a 26 year old college student who loves coffee. The purpose would be for a usual customer purchasing the Verismo pods.</p>
+		<p>The site assigned was Starbucks web page. The user is a 26 year old college 			student who loves coffee. The site is designed to sell coffee products.<br> The 			purpose would be a usual customer purchasing the Verismo pods on an late 			afternoon day.</p>
 		<h1>Use Case</h1>
 		<p>Goal: As a Starbucks buyer, she want the pods for her coffee maker.</p>
 		<ol>
