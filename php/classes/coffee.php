@@ -1,7 +1,16 @@
 <?php
+/**
+ * accessor method for Starbucks inputCustomerId
+ *@return  int value of Starbucks inputCustomerId
+ **/
+ public function getinputCustomerId () {
+  return($this->inputCustomerId);
+}
 
- ?>Created by PhpStorm.
- * User: BackInUse
- * Date: 7/23/2016
- * Time: 11:19 AM
- */
+/**
+ * mutator method for Starbucks input Customer Id
+ *
+ * @param int $newCustomerId new value of tweet profile id
+ * @throws \RangeException if $newCustomerId is negative
+ * @throw
+?>

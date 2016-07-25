@@ -46,7 +46,7 @@
 			<li>
 				roastType and coffeeId would be the attributes of the pods.
 			</li>
-			<img src="pics/erd.png" alt="starbucks"/>
+			<img src="pics/erd-star.png" alt="starbucks"/>
 
 	</body>
 </htmL>
