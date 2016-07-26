@@ -44,7 +44,7 @@
 			<li>Many to many relation would have the starRating of customers the weak 				entity.
 			</li>
 			<li>The weak entity would be the starRating that links the customer and coffee together. It also opens foreign keys star rating of customer and star rating the coffee identification. </li>
-			<img src="pics/erd-star.png" alt="starbucks"/>
+			<img src="pics/star-erd.png" alt="starbucks"/>
 
 	</body>
 </htmL>
