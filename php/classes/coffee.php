@@ -1,27 +1,42 @@
 <?php
 /**
- * accessor method for Starbucks inputCustomerId
- *@return  int value of Starbucks inputCustomerId
+ * accessor method for Starbucks getCustomerId
+ *@return  int value of Starbucks getCustomerId
  **/
- private function getinputCustomerId () {
-  return($this->inputCustomerId);
+ private function getCoffeeId () {
+  return($this->coffeeId);
 }
 
 /**
  * mutator method for Starbucks input Customer Id
  *
- * @param int $newCustomerId new value of customer profile id
+ * @param int $ new value of customer profile id
  * @throws \RangeException if $newCustomerId is negative
  * @throws \IdError if $newCustomerId is not an integer
  **///
- 	private function setNewCustomerId (int
-	$newCustomerId) {
+ 	public function setNewCoffeeId (int
+	$newCoffeeId) {
 	// verify that the customer id is positive
-		if ($newCustomerId !==0) {
-			throw(new\OutOfRangeExceptionException ("customer name is not found"));
+		if ($newCoffeeId !==0) {
+			throw(new\OutOfRangeException ("coffee name is not found"));
 		}
-	//store the new customer id
-	$this->customerId = $newCustomerId;
+	//store the new coffee id
+	$this->coffeeId = $newCoffeeId;
 }
 
+/**
+ *  constructor of the coffee Id
+ * @param int|null $newCoffee id of correct coffee name or null if wrong name
+ *@param int
+ **///
+	public function _construct (int $newCustomerId = null) {
+	try {
+		$this->setCustomerId($newCustomerId);
+		$this->setCoffeeDescription($newCoffeeDescription);
+		$this->setCoffeeItemType($newCoffeeType);
+	}
+	catch(\invalidArgumentException $invalidArgument) {
+		throw(new \InvalidArgumentException($invaldiArgument->getCoffeeId))
+	}
+}
 ?>
