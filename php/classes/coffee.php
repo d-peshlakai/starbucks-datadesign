@@ -199,8 +199,31 @@ public function setcoffeeCount(float $newcoffeeCount) {
 				throw(new \RangeException("coffee count is not positive"));
 			}
 		$this->coffeeCount =$newcoffeeCount;
-		}private function setCoffeeName($newCoffeeName) {
-}
+		}
+
+	/*
+	 * accessor method for coffee roast
+	 *
+	 * @return int value of coffee roast
+	 */
+	private function getCoffeeRoast() {
+		return($this->coffeeRoast);
+	}
+		/**
+		 * mutator method for tweet content
+		 * @param int coffeeRoast of coffee id
+		 * @throws \InvalidArgumentException if coffee roast is not positive
+		 */
+	public function setcoffeeRoast(int $newCoffeeRoast) {
+		//verify the coffee roast is positive
+		if($newCoffeeRoast <= 0) {
+			throw(new\InvalidArgumentException("coffee roast is not valid"));
+		}
+		//convert and store the coffee roast
+		$this->coffeeRoast = $newCoffeeRoast;
+	}
+
+
 
 
 
